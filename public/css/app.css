@@ -1,0 +1,66 @@
+/*$body*/
+body{
+    background-color:#F5F5F7;
+    padding: 20px;
+}
+
+/*$header*/
+header{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header nav ul li{
+    padding: 5px 15px;
+}
+
+body .content{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff(197, 43, 43);
+    border: 2px solid #ececec;
+    border-radius: 10px;
+}
+body .content .flex ._evt-create-post-selected {
+    color: black;
+    text-decoration: none;
+
+}
+
+/*$table*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px  #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+
+}
+
+/*$card*/
+
+/*Atomic Css*/
+.w-full{
+    width: 100%;
+}
+
+.p-20{
+    padding: 20px;
+}
+
